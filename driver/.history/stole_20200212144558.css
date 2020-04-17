@@ -1,0 +1,551 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+  Setting default browser font-size to 10px
+  Allows for easier convertions
+  IE: 25px/10px = 2.5rem or 250%
+*/
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 43.75%;
+    }
+}
+
+@media only screen and (max-width: 28.125em) {
+    html {
+        font-size: 37.5%;
+    }
+}
+
+.h1 {
+    font-family: Raleway, sans-serif;
+    color: #000;
+    font-size: 3.6rem;
+    font-weight: 500;
+    padding: 0 4rem;
+}
+
+.h2 {
+    font-family: Raleway, sans-serif;
+    color: #000;
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 0 4rem;
+}
+
+.h3 {
+    font-family: Raleway, sans-serif;
+    color: #000;
+    font-size: 2.6rem;
+    font-weight: 400;
+    padding: 0 4rem;
+}
+
+.h4 {
+    font-family: Raleway, sans-serif;
+    color: #212121;
+    font-size: 2.6rem;
+    font-weight: 550;
+    padding: 0 4rem;
+}
+
+.h5 {
+    font-family: Raleway, sans-serif;
+    color: #212121;
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 0 4rem;
+}
+
+.h6 {
+    font-family: Raleway, sans-serif;
+    color: #2d9cdb;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0 4rem;
+}
+
+.p {
+    font-family: Open Sans, Helvetica;
+    color: #4f4e4c;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0 4rem;
+    line-height: 1.75;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .p {
+        line-height: 2;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .p {
+        line-height: 2.75;
+    }
+}
+
+.li {
+    font-family: Abel, sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 4rem;
+}
+
+.theme--blue {
+    background: #0288d1;
+}
+
+.theme--orange {
+    background: #d14702;
+}
+
+.theme--yellow {
+    background: #d1ae02;
+}
+
+.theme--purple {
+    background: #8f02d1;
+}
+
+.u-padding-small-bottom {
+    padding-bottom: 3vh;
+}
+
+.u-padding-medium-bottom {
+    padding-bottom: 7.5vh;
+}
+
+.u-padding-large-bottom {
+    padding-bottom: 20vh;
+}
+
+.u-padding-small-top {
+    padding-top: 3vh;
+}
+
+.u-padding-medium-top {
+    padding-top: 7.5vh;
+}
+
+.u-padding-large-top {
+    padding-top: 20vh;
+}
+
+.heading-sub-lev {
+    color: #fff;
+    font-style: italic;
+}
+
+.heading-section-lev {
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin: auto;
+    border-bottom: 4px solid #000;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.heading-icon-lev {
+    text-transform: capitalize;
+    padding: 2rem 0;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .heading-icon-lev {
+        font-size: 2.8rem;
+    }
+}
+
+.heading-biography-lev {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3.6rem;
+    padding: 2rem 0;
+}
+
+.heading-projects-lev {
+    margin-top: 4.5rem;
+}
+
+@media only screen and (max-width: 75em) {
+    .heading-projects-lev {
+        font-size: 20px;
+    }
+}
+
+.heading-projects-sub-lev {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 75em) {
+    .heading-projects-sub-lev {
+        font-size: 14px;
+    }
+}
+
+.heading-contact-sub-lev {
+    color: #fff;
+    font-weight: 550;
+    display: block;
+    padding: 0;
+}
+
+.name-logo {
+    margin-bottom: 1rem;
+    -webkit-animation: fill 1s ease forwards;
+    animation: fill 1s ease forwards;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    width: 80%;
+    height: 40%;
+}
+
+@-webkit-keyframes fill {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: #0288d1;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: #0288d1;
+    }
+}
+
+.name-logo path:nth-child(1) {
+    stroke-dasharray: 369.1;
+    stroke-dashoffset: 369.1;
+    -webkit-animation: line--draw 1s ease forwards;
+    animation: line--draw 1s ease forwards;
+}
+
+.name-logo path:nth-child(2) {
+    stroke-dashoffset: 424.1;
+    stroke-dasharray: 424.1;
+    -webkit-animation: line--draw 2s ease forwards 0.4s;
+    animation: line--draw 2s ease forwards 0.4s;
+}
+
+.name-logo path:nth-child(3) {
+    stroke-dashoffset: 389.4;
+    stroke-dasharray: 389.4;
+    -webkit-animation: line--draw 2s ease forwards 0.8s;
+    animation: line--draw 2s ease forwards 0.8s;
+}
+
+.name-logo path:nth-child(4) {
+    stroke-dashoffset: 395.3;
+    stroke-dasharray: 395.3;
+    -webkit-animation: line--draw 2s ease forwards 1.2s;
+    animation: line--draw 2s ease forwards 1.2s;
+}
+
+.name-logo path:nth-child(5) {
+    stroke-dashoffset: 452.6;
+    stroke-dasharray: 452.6;
+    -webkit-animation: line--draw 2s ease forwards 1.6s;
+    animation: line--draw 2s ease forwards 1.6s;
+}
+
+.name-logo path:nth-child(6) {
+    stroke-dashoffset: 300.3;
+    stroke-dasharray: 300.3;
+    -webkit-animation: line--draw 2s ease forwards 2s;
+    animation: line--draw 2s ease forwards 2s;
+}
+
+.name-logo path:nth-child(7) {
+    stroke-dashoffset: 389.4;
+    stroke-dasharray: 389.4;
+    -webkit-animation: line--draw 2s ease forwards 2.4s;
+    animation: line--draw 2s ease forwards 2.4s;
+}
+
+.name-logo path:nth-child(8) {
+    stroke-dashoffset: 369.1;
+    stroke-dasharray: 369.1;
+    -webkit-animation: line--draw 2s ease forwards 0.5s;
+    animation: line--draw 2s ease forwards 0.5s;
+}
+
+.name-logo path:nth-child(9) {
+    stroke-dashoffset: 389.4;
+    stroke-dasharray: 389.4;
+    -webkit-animation: line--draw 2s ease forwards 1s;
+    animation: line--draw 2s ease forwards 1s;
+}
+
+.name-logo path:nth-child(10) {
+    stroke-dashoffset: 452.6;
+    stroke-dasharray: 452.6;
+    -webkit-animation: line--draw 2s ease forwards 1.5s;
+    animation: line--draw 2s ease forwards 1.5s;
+}
+
+.name-logo path:nth-child(11) {
+    stroke-dashoffset: 515.98;
+    stroke-dasharray: 515.98;
+    -webkit-animation: line--draw 2s ease forwards 2s;
+    animation: line--draw 2s ease forwards 2s;
+}
+
+.name-logo path:nth-child(12) {
+    stroke-dashoffset: 389.4;
+    stroke-dasharray: 389.4;
+    -webkit-animation: line--draw 2s ease forwards 2.5s;
+    animation: line--draw 2s ease forwards 2.5s;
+}
+
+.header__container {
+    background-color: #151c27;
+    height: 100vh;
+}
+
+.header__content {
+    text-align: center;
+    margin: 30vh 8vw;
+}
+
+.primary-btn {
+    border: #fff 0.2rem solid;
+    background: none;
+    color: #fff;
+    outline: none;
+    width: 19.5rem;
+    padding: 1.2rem;
+    margin-top: 7rem;
+    -webkit-transition: 0.4s ease-in;
+    transition: 0.4s ease-in;
+}
+
+.primary-btn .fa-chevron-right {
+    vertical-align: middle;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+    -webkit-box-shadow: inset 19.5rem 0 0 0 #0288d1;
+    box-shadow: inset 19.5rem 0 0 0 #0288d1;
+    border-color: #0288d1;
+}
+
+.primary-btn:hover .fa-chevron-right {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.nav__container {
+    background: #212121;
+    z-index: 99;
+    height: 5rem;
+    border-bottom: 3px solid #d14702;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .nav__container {
+        position: relative;
+    }
+}
+
+.links-wrapper {
+    list-style: none;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-link {
+    padding: 0;
+    z-index: 20;
+    margin: 0 2.5rem;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: translateX(2rem);
+    transform: translateX(2rem);
+}
+
+@media only screen and (max-width: 75em) {
+    .page-link {
+        margin: 0 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .page-link {
+        font-size: 3rem;
+        margin: 0 2.6rem;
+    }
+}
+
+.page-link:hover {
+    color: #2d9cdb;
+    cursor: pointer;
+}
+
+.page-link:active {
+    color: #0288d1;
+}
+
+.nav-icon {
+    display: none;
+    width: 2.8rem;
+    -webkit-transform: translateX(2rem);
+    transform: translateX(2rem);
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .nav-icon {
+        display: block;
+    }
+}
+
+.lev-one,
+.lev-two,
+.lev-three {
+    background-color: #fff;
+    display: block;
+    height: 0.4rem;
+    margin: 0.4rem 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-icon:hover .lev-one {
+    background-color: #2d9cdb;
+}
+
+.nav-icon:hover .lev-two {
+    background-color: #b3e5fc;
+}
+
+.nav-icon:hover .lev-three {
+    background-color: #2d9cdb;
+}
+
+.lev-one--close {
+    -webkit-transform: translateY(0.8rem) rotate(135deg);
+    transform: translateY(0.8rem) rotate(135deg);
+}
+
+.lev-two--close {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.lev-three--close {
+    -webkit-transform: translateY(-0.8rem) rotate(-135deg);
+    transform: translateY(-0.8rem) rotate(-135deg);
+}
+
+.current {
+    color: #d14702;
+}
+
+.fa-bars::before,
+.fa-bars::after,
+.fa-bars {
+    position: relative;
+    font-size: 3rem;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -webkit-animation: smoothSlide 0.5s ease;
+    animation: smoothSlide 0.5s ease;
+}
+
+.overlay {
+    max-width: 1200px;
+    width: 100%;
+    top: 5rem;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-out;
+    transition: height 0.3s ease-out;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .overlay {
+        background: #212121;
+        position: absolute;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        height: 0;
+    }
+}
+
+.visible {
+    height: 220px;
+}

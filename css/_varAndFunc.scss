@@ -1,0 +1,22 @@
+$primaryColor: #949191;
+$secondaryColor:white;
+$thirdColor:rgb(218, 197, 80);
+$fourthColor:#0d1619;
+$fifthColor: rgb(121, 27, 27);
+$color:white;
+$fontTitle:black;
+$bodyColor:rgb(136, 136, 136);
+$titleHeader:white;
+$familyTitle: 'Montserrat',
+sans-serif;
+$familyBody: 'Source Sans Pro',
+sans-serif,
+Arial,
+Helvetica,
+sans-serif;
+
+@mixin flexDisplay($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
