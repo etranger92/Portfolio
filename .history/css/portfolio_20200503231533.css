@@ -852,18 +852,14 @@ body a {
   border-radius: 5px 5px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.7rem;
-  -webkit-box-shadow: 2px 3px 5px 3px #1112;
-  box-shadow: 2px 3px 5px 3px #1112;
+  font-size: 0.8rem;
+  -webkit-box-shadow: 2px 3px 5px 3px #2a252e;
+  box-shadow: 2px 3px 5px 3px #2a252e;
   display: none;
   -webkit-animation-name: makeItAppeared;
   animation-name: makeItAppeared;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
-  padding: 0.5rem;
-  font-weight: 600;
-  color: #565252;
-
 }
 
 .cover_name {

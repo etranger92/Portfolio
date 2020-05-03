@@ -1213,13 +1213,8 @@ body {
                 width: 6rem;
 
 
-                input {
 
-                  position: relative;
-                  width: auto;
-                  height: auto;
-                  border-radius: 3px;
-                  vertical-align: middle;
+                input {
                   -webkit-transform: translateZ(0);
                   transform: translateZ(0);
                   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -1235,7 +1230,6 @@ body {
                   background-color: gray;
                   background-color: #adadad;
                   color: white;
-                  display: none;
 
                   &:before {
                     content: "";

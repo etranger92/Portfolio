@@ -1214,7 +1214,7 @@ body {
 
 
                 input {
-
+                  display: none;
                   position: relative;
                   width: auto;
                   height: auto;
@@ -1235,7 +1235,6 @@ body {
                   background-color: gray;
                   background-color: #adadad;
                   color: white;
-                  display: none;
 
                   &:before {
                     content: "";

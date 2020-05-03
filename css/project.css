@@ -559,7 +559,8 @@ body a {
 #container .main_div .restaurant,
 #container .main_div .ecommerce_two,
 #container .main_div .login_quote,
-#container .main_div .arasna {
+#container .main_div .arasna,
+#container .main_div .sql {
   width: 100%;
   height: auto;
 }
@@ -569,7 +570,8 @@ body a {
 #container .main_div .restaurant .pic_website,
 #container .main_div .ecommerce_two .pic_website,
 #container .main_div .login_quote .pic_website,
-#container .main_div .arasna .pic_website {
+#container .main_div .arasna .pic_website,
+#container .main_div .sql .pic_website {
   opacity: 1;
   height: 70vh;
 }
@@ -579,7 +581,8 @@ body a {
 #container .main_div .restaurant .pic_website div,
 #container .main_div .ecommerce_two .pic_website div,
 #container .main_div .login_quote .pic_website div,
-#container .main_div .arasna .pic_website div {
+#container .main_div .arasna .pic_website div,
+#container .main_div .sql .pic_website div {
   opacity: 0;
 }
 
@@ -588,7 +591,8 @@ body a {
 #container .main_div .restaurant .pic_website .opacity_on,
 #container .main_div .ecommerce_two .pic_website .opacity_on,
 #container .main_div .login_quote .pic_website .opacity_on,
-#container .main_div .arasna .pic_website .opacity_on {
+#container .main_div .arasna .pic_website .opacity_on,
+#container .main_div .sql .pic_website .opacity_on {
   opacity: 1;
   width: 50vw;
   height: 100%;
@@ -603,7 +607,8 @@ body a {
 #container .main_div .restaurant .pic_website .opacity_on:before,
 #container .main_div .ecommerce_two .pic_website .opacity_on:before,
 #container .main_div .login_quote .pic_website .opacity_on:before,
-#container .main_div .arasna .pic_website .opacity_on:before {
+#container .main_div .arasna .pic_website .opacity_on:before,
+#container .main_div .sql .pic_website .opacity_on:before {
   content: "";
   width: 100%;
   opacity: 0;
@@ -619,7 +624,8 @@ body a {
 #container .main_div .restaurant .pic_website .opacity_on .presentation_pics,
 #container .main_div .ecommerce_two .pic_website .opacity_on .presentation_pics,
 #container .main_div .login_quote .pic_website .opacity_on .presentation_pics,
-#container .main_div .arasna .pic_website .opacity_on .presentation_pics {
+#container .main_div .arasna .pic_website .opacity_on .presentation_pics,
+#container .main_div .sql .pic_website .opacity_on .presentation_pics {
   opacity: 0;
   position: relative;
   height: 100%;
@@ -633,7 +639,8 @@ body a {
 #container .main_div .restaurant .pic_website .opacity_on .presentation_pics a img,
 #container .main_div .ecommerce_two .pic_website .opacity_on .presentation_pics a img,
 #container .main_div .login_quote .pic_website .opacity_on .presentation_pics a img,
-#container .main_div .arasna .pic_website .opacity_on .presentation_pics a img {
+#container .main_div .arasna .pic_website .opacity_on .presentation_pics a img,
+#container .main_div .sql .pic_website .opacity_on .presentation_pics a img {
   width: 100%;
   height: 100%;
   -webkit-transition: all .2s ease-in-out;
@@ -645,7 +652,8 @@ body a {
 #container .main_div .restaurant .pic_website .opacity_on .presentation_pics a img:hover,
 #container .main_div .ecommerce_two .pic_website .opacity_on .presentation_pics a img:hover,
 #container .main_div .login_quote .pic_website .opacity_on .presentation_pics a img:hover,
-#container .main_div .arasna .pic_website .opacity_on .presentation_pics a img:hover {
+#container .main_div .arasna .pic_website .opacity_on .presentation_pics a img:hover,
+#container .main_div .sql .pic_website .opacity_on .presentation_pics a img:hover {
   -webkit-transform: scale(1.06);
           transform: scale(1.06);
 }
@@ -655,7 +663,8 @@ body a {
 #container .main_div .restaurant .pic_website .opacity_on .presentation_pics .title_content,
 #container .main_div .ecommerce_two .pic_website .opacity_on .presentation_pics .title_content,
 #container .main_div .login_quote .pic_website .opacity_on .presentation_pics .title_content,
-#container .main_div .arasna .pic_website .opacity_on .presentation_pics .title_content {
+#container .main_div .arasna .pic_website .opacity_on .presentation_pics .title_content,
+#container .main_div .sql .pic_website .opacity_on .presentation_pics .title_content {
   position: absolute;
   display: inline-block;
   top: 62%;
@@ -670,7 +679,8 @@ body a {
 #container .main_div .restaurant .pic_website .opacity_on .presentation_pics .bordure,
 #container .main_div .ecommerce_two .pic_website .opacity_on .presentation_pics .bordure,
 #container .main_div .login_quote .pic_website .opacity_on .presentation_pics .bordure,
-#container .main_div .arasna .pic_website .opacity_on .presentation_pics .bordure {
+#container .main_div .arasna .pic_website .opacity_on .presentation_pics .bordure,
+#container .main_div .sql .pic_website .opacity_on .presentation_pics .bordure {
   position: absolute;
   left: 80%;
   top: 65%;
@@ -683,7 +693,8 @@ body a {
 #container .main_div .restaurant .description,
 #container .main_div .ecommerce_two .description,
 #container .main_div .login_quote .description,
-#container .main_div .arasna .description {
+#container .main_div .arasna .description,
+#container .main_div .sql .description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -705,7 +716,8 @@ body a {
 #container .main_div .restaurant div,
 #container .main_div .ecommerce_two div,
 #container .main_div .login_quote div,
-#container .main_div .arasna div {
+#container .main_div .arasna div,
+#container .main_div .sql div {
   margin-top: auto;
   margin-bottom: auto;
   height: auto;
@@ -719,7 +731,8 @@ body a {
 #container .main_div .restaurant div h2,
 #container .main_div .ecommerce_two div h2,
 #container .main_div .login_quote div h2,
-#container .main_div .arasna div h2 {
+#container .main_div .arasna div h2,
+#container .main_div .sql div h2 {
   opacity: 0;
   text-align: center;
 }
@@ -729,7 +742,8 @@ body a {
 #container .main_div .restaurant div .display_f2,
 #container .main_div .ecommerce_two div .display_f2,
 #container .main_div .login_quote div .display_f2,
-#container .main_div .arasna div .display_f2 {
+#container .main_div .arasna div .display_f2,
+#container .main_div .sql div .display_f2 {
   opacity: 1;
   -webkit-animation: makeItAppears 2s ease;
           animation: makeItAppears 2s ease;
@@ -740,7 +754,8 @@ body a {
 #container .main_div .restaurant .sub_description,
 #container .main_div .ecommerce_two .sub_description,
 #container .main_div .login_quote .sub_description,
-#container .main_div .arasna .sub_description {
+#container .main_div .arasna .sub_description,
+#container .main_div .sql .sub_description {
   opacity: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -767,7 +782,8 @@ body a {
 #container .main_div .restaurant .sub_description p,
 #container .main_div .ecommerce_two .sub_description p,
 #container .main_div .login_quote .sub_description p,
-#container .main_div .arasna .sub_description p {
+#container .main_div .arasna .sub_description p,
+#container .main_div .sql .sub_description p {
   width: 50%;
   font-size: 1rem;
   margin-top: 1.5rem;
@@ -781,7 +797,8 @@ body a {
 #container .main_div .restaurant .sub_description p:before,
 #container .main_div .ecommerce_two .sub_description p:before,
 #container .main_div .login_quote .sub_description p:before,
-#container .main_div .arasna .sub_description p:before {
+#container .main_div .arasna .sub_description p:before,
+#container .main_div .sql .sub_description p:before {
   content: "\25A0";
   color: #791b1b;
   font-weight: bold;

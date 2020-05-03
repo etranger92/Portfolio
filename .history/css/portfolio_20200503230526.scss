@@ -1214,7 +1214,6 @@ body {
 
 
                 input {
-
                   position: relative;
                   width: auto;
                   height: auto;
@@ -1235,9 +1234,9 @@ body {
                   background-color: gray;
                   background-color: #adadad;
                   color: white;
-                  display: none;
 
                   &:before {
+                    cursor: pointer;
                     content: "";
                     position: absolute;
                     z-index: -1;

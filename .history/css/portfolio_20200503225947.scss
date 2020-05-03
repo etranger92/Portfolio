@@ -1213,29 +1213,11 @@ body {
                 width: 6rem;
 
 
-                input {
 
+                input {
+                  font-size: 1em;
+                  height: 2rem;
                   position: relative;
-                  width: auto;
-                  height: auto;
-                  border-radius: 3px;
-                  vertical-align: middle;
-                  -webkit-transform: translateZ(0);
-                  transform: translateZ(0);
-                  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-                  -webkit-backface-visibility: hidden;
-                  backface-visibility: hidden;
-                  -moz-osx-font-smoothing: grayscale;
-                  position: relative;
-                  -webkit-transition-property: color;
-                  transition-property: color;
-                  -webkit-transition-duration: 0.3s;
-                  transition-duration: 0.3s;
-                  font-weight: bold;
-                  background-color: gray;
-                  background-color: #adadad;
-                  color: white;
-                  display: none;
 
                   &:before {
                     content: "";

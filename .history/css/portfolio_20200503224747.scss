@@ -980,7 +980,7 @@ body {
 
           select {
             border-bottom: 1px solid white;
-
+            color: whitesmoke;
           }
 
         }
@@ -990,17 +990,21 @@ body {
           margin-top: 4rem;
           width: 10rem;
 
+
           input {
             height: 2.5rem;
             border: 1px solid white;
             background-color: gray;
             background-color: #4a4848;
 
+            border-radius: 4px 4px;
             font-weight: bold;
             font-size: 1em;
             color: white;
 
-
+            &:hover {
+              background-color: #bb0505;
+            }
           }
         }
       }
@@ -1212,56 +1216,9 @@ body {
               .submit {
                 width: 6rem;
 
-
                 input {
-
-                  position: relative;
-                  width: auto;
-                  height: auto;
-                  border-radius: 3px;
-                  vertical-align: middle;
-                  -webkit-transform: translateZ(0);
-                  transform: translateZ(0);
-                  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-                  -webkit-backface-visibility: hidden;
-                  backface-visibility: hidden;
-                  -moz-osx-font-smoothing: grayscale;
-                  position: relative;
-                  -webkit-transition-property: color;
-                  transition-property: color;
-                  -webkit-transition-duration: 0.3s;
-                  transition-duration: 0.3s;
-                  font-weight: bold;
-                  background-color: gray;
-                  background-color: #adadad;
-                  color: white;
-                  display: none;
-
-                  &:before {
-                    content: "";
-                    position: absolute;
-                    z-index: -1;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    background: rgb(187, 5, 5);
-                    -webkit-transform: scaleY(0);
-                    transform: scaleY(0);
-                    -webkit-transform-origin: 50% 0;
-                    transform-origin: 50% 0;
-                    -webkit-transition-property: transform;
-                    transition-property: transform;
-                    -webkit-transition-duration: 0.3s;
-                    transition-duration: 0.3s;
-                    -webkit-transition-timing-function: ease-out;
-                    transition-timing-function: ease-out;
-                  }
-
-                  &:hover:before {
-                    -webkit-transform: scaleY(1);
-                    transform: scaleY(1);
-                  }
+                  font-size: 1em;
+                  height: 2rem;
                 }
               }
 
