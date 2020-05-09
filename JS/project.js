@@ -30,7 +30,7 @@ let sectionAnimationBody = {
         });
     },
     displayTitle() {
-        let titles = document.getElementsByClassName("description");
+        let titles = [...document.getElementsByClassName("description")];
         let title = "";
         titles.forEach((element) => {
             element.querySelector("h2");
