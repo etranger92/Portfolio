@@ -396,8 +396,6 @@ body {
             }
 
         }
-
-
     }
 
     .main_div {
@@ -410,14 +408,14 @@ body {
         .ecommerce_two,
         .login_quote,
         .arasna,
-        .sql {
+        .sql,
+        .tnwc {
             width: 100%;
             height: auto;
 
             .pic_website {
                 opacity: 1;
                 height: 70vh;
-
 
                 div {
                     opacity: 0;
@@ -447,7 +445,6 @@ body {
                         height: 100%;
                         width: 100%;
                         animation: makeItAppears 0.5s ease-in-out 2s forwards;
-
 
                         a {
 
